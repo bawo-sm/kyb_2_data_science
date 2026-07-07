@@ -27,6 +27,7 @@ uv pip install -r requirements.txt
 
 
 # Przydatne linki
+0. Repo z projekty KYB 1 https://github.com/cloudstateu/KYB
 1. Implementacja sieci PointNet
     - pytorch: https://medium.com/@sepideh.92sh/decoding-pointnet-a-practical-guide-to-3d-segmentation-with-python-and-pytorch-7a037fecb8a7
     - keras & tensorflow: https://keras.io/examples/vision/pointnet/
