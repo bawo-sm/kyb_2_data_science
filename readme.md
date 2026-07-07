@@ -23,7 +23,7 @@ uv pip install -r requirements.txt
 3. Sieci neuronowe i embeddingi: 
     - jesli danych będzie mało, to można transformowac sprzęt do psotaci embeddingów
     - wtedy utworzy się "bazę wiedzy" z embeddingami oraz ich relacjami, np. która część, z która współpracuje dobrze
-    model można wytrenować, np. w podejściu *contrastive learning*
+    - model można wytrenować, np. w podejściu *contrastive learning*
 
 
 # Przydatne linki
