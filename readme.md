@@ -32,4 +32,4 @@ uv pip install -r requirements.txt
     - pytorch: https://medium.com/@sepideh.92sh/decoding-pointnet-a-practical-guide-to-3d-segmentation-with-python-and-pytorch-7a037fecb8a7
     - keras & tensorflow: https://keras.io/examples/vision/pointnet/
 2. Implementacja conv3d z pytorch: https://medium.com/data-science/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3
-3. PointNet z hugging face https://huggingface.co/keras-io/pointnet_segmentation
+3. PointNet z hugging face https://huggingface.co/models?search=pointnet
