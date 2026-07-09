@@ -3,7 +3,7 @@ import numpy as np
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
 from torch.optim import SGD
-from scripts.pytorch_nn.trainer import PytorchTrainer
+from scripts.pytorch_nn.supervised_trainer import PytorchSupervisedTrainer
 
 
 class TestNeuralNetwork(nn.Module):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     #     optimizer=optimizer
     # )
 
-    train_history, test_history = PytorchTrainer().train_with_early_stopping(
+    train_history, test_history = PytorchSupervisedTrainer().train_with_early_stopping(
         n_epochs=100,
         batch_size=BATCH_SIZE,
         model=model,
