@@ -1,7 +1,8 @@
 # nerual networks
 keras==3.15.0
 tensorflow==2.21.0
-torch==2.12.1
+torch==2.13.0
+torchvision==0.28.0
 
 # classic ml
 scikit-learn==1.9.0
