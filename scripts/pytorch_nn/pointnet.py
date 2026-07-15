@@ -99,6 +99,7 @@ class PointNetWithTNet(nn.Module):
 class PointNetClassifier(nn.Module):
 
     def __init__(self, pointnet: PointNetBasic | PointNetWithTNet, num_classes: int):
+        super().__init__()
         self.pointnet = pointnet
         self.head = nn.Linear(THIRD_MLP_LAYER, num_classes)
 
@@ -110,6 +111,7 @@ class PointNetClassifier(nn.Module):
 class PointNetRegressor(nn.Module):
 
     def __init__(self, pointnet: PointNetBasic | PointNetWithTNet):
+        super().__init__()
         self.pointnet = pointnet
         self.head = nn.Linear(THIRD_MLP_LAYER, 1)
 
@@ -121,6 +123,7 @@ class PointNetRegressor(nn.Module):
 class PointNetEmbedder(nn.Module):
 
     def __init__(self, pointnet: PointNetBasic | PointNetWithTNet, emb_size: int):
+        super().__init__()
         self.pointnet = pointnet
         self.head = nn.Linear(THIRD_MLP_LAYER, emb_size)
 
