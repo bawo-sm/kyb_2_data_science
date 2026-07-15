@@ -34,7 +34,7 @@ class PytorchSupervisedTrainer:
             test_loss = self._step_test(test_dataloader)
             history[i] = {"train": train_loss, "test": [test_loss]}
         
-        return history
+        return model, history
 
     def train_with_early_stopping(
             self,
